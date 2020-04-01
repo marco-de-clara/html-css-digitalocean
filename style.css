@@ -1,13 +1,29 @@
 body {
-    background-color: #ffffff;
     font-size: 11px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
 }
 
+#page {
+    position: relative;
+}
+
+.navbar {
+    margin: 0;
+    border-radius: 0;
+    min-height: 0;
+}
+
+.light-bg {
+    background-color: #ffffff;
+}
+
 #navbar-top {
     border-bottom: 1px solid #e5e8ed;
-    height: 39px;
+}
+
+#navbar-top a.no-deco {
+    margin: 12px 15px 0;
 }
 
 #navbar-top a {
@@ -26,26 +42,13 @@ body {
     text-decoration: none;
 }
 
-.clear::after {
-    display: table;
-    content: '';
-    clear: both;
-}
-
 .no-deco {
     text-decoration: none;
 }
 
-.mg-15 {
-    margin: 15px;
-}
-
-.mgl-15 {
-    margin: 0 15px;
-}
-
 .tag-new {
     float: left;
+    margin: 0 15px;
     background-color: #00d7d2;
     font-size: 1rem;
     font-weight: 400;
@@ -58,4 +61,58 @@ body {
 .announcement-text {
     float: left;
     white-space: nowrap;
+}
+
+#navbar-top ul {
+    margin: 12px 30px 0;
+}
+
+#brand {
+    float: left;
+    margin: 12px 65px 21px 30px;
+}
+
+#navbar-bot img,
+#navbar-transparent img {
+    width: 172px;
+}
+
+#navbar-bot ul {
+    float: left;
+}
+
+.menu-style {
+    color: #000000;
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 60px;
+}
+
+#btn-nav {
+    margin: 15px 30px;
+    padding: 11px 16px 8px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #0069ff;
+    border: 1px solid #0069ff;
+}
+
+#btn-nav:hover {
+    background-color: #0069ff;
+    color: #ffffff;
+}
+
+#navbar-transparent {
+    margin: 31px 30px 21px;
+}
+
+.fa-bars {
+    margin-top: 5px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 2.2rem;
+}
+
+.bgtest {
+    background-color: #0049ff;
+    height: 5000px;
 }
