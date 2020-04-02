@@ -53,9 +53,12 @@ body {
     font-size: 1rem;
     font-weight: 400;
     color: #000000;
-    border-radius: 5px;
     padding: 4px 8px;
     cursor: default;
+}
+
+.border-rd {
+    border-radius: 5px;
 }
 
 .announcement-text {
@@ -73,7 +76,7 @@ body {
 }
 
 #navbar-bot img,
-#navbar-transparent img {
+#navbar-secondary img {
     width: 172px;
 }
 
@@ -102,7 +105,7 @@ body {
     color: #ffffff;
 }
 
-#navbar-transparent {
+#navbar-secondary {
     margin: 31px 30px 21px;
 }
 
@@ -112,7 +115,121 @@ body {
     font-size: 2.2rem;
 }
 
-.bgtest {
-    background-color: #0049ff;
-    height: 5000px;
+#jumbo {
+    margin-top: 40px;
+    background-color: #0248ff;
+}
+
+@media all and (min-width: 992px) {
+    #jumbo {
+        background-image: url(img/bg-home.jpg);
+        background-position: bottom;
+        background-repeat: no-repeat;
+    }
+}
+
+#bg-secondary {
+    background: #0248ff;
+}
+
+.jumbo-margin {
+    margin: 120px 0;
+}
+
+#jumbo-text h1 {
+    font-size: 4.5rem;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+#jumbo-text p {
+    font-size: 2.4rem;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+#jumbo-form {
+    background-color: #ffffff;
+}
+
+#box-content {
+    padding: 30px;
+    text-align: center;
+}
+
+#jumbo-form h2 {
+    font-size: 2.8rem;
+    font-weight: 700;
+    padding: 20px 0 40px;
+    margin: 0;
+}
+
+.input-margin {
+    margin-bottom: 18px;
+}
+
+.submit-stats {
+    background-color: #0069ff;
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: #ffffff;
+    height: 48px;
+    width: 100%;
+}
+
+.submit-stats:hover {
+    background-color: #0069ff;
+    color: #ffffff;
+}
+
+.line {
+    position: relative;
+    margin: 20px 0;
+}
+
+#box-content .text-line::before,
+#box-content .text-line::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: calc((100% - 150px) / 2);
+    height: 1px;
+    background-color: #e5e8ed;
+}
+
+#box-content .text-line::before {
+    left: 0;
+}
+
+#box-content .text-line::after {
+    right: 0;
+}
+
+#box-content .text-line {
+    display: inline-block;
+    font-size: 1.6rem;
+    width: 100%;
+}
+
+.btn-form {
+    width: 47%;
+    padding: 15px 50px;
+    position: relative;
+}
+
+#box-content .btn-form:first-of-type {
+    margin-right: 4%;
+}
+
+#box-content p {
+    font-size: 1.2rem;
+    margin-top: 35px;
+}
+
+.logo-btn-form {
+    left: 16px;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
