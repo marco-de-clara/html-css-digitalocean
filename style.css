@@ -145,7 +145,7 @@ body {
 
 #jumbo-text h1 {
     font-size: 4.5rem;
-    font-weight: 700;
+    font-weight: bold;
     color: #ffffff;
 }
 
@@ -220,23 +220,41 @@ body {
 
 .btn-form {
     width: 47%;
-    padding: 15px 50px;
+    padding: 13px 50px;
     position: relative;
+    border-color: rgba(0,105,255,.2);
+    background-color: #f2f8ff;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.btn-form:hover {
+    border-color: rgba(0,105,255,.2);
+    background-color: #d5e4f7;
 }
 
 #box-content .btn-form:first-of-type {
     margin-right: 4%;
 }
 
-#box-content p {
-    font-size: 1.2rem;
-    margin-top: 35px;
-}
-
 .logo-btn-form {
     left: 16px;
     position: absolute;
     top: 50%;
-    -webkit-transform: translateY(-50%);
+    font-size: 1.8rem;
     transform: translateY(-50%);
+}
+
+#tos {
+    font-size: 1.2rem;
+    margin-top: 35px;
+}
+
+#tos a {
+    text-decoration: underline;
+    color: #0069ff;
+}
+
+#tos a:hover {
+    color: #005fe6;
 }
