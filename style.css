@@ -14,7 +14,7 @@ body {
     min-height: 0;
 }
 
-.light-bg {
+.white-bg {
     background-color: #ffffff;
 }
 
@@ -253,7 +253,7 @@ body {
     color: #005fe6;
 }
 
-#business {
+.grey-bg {
     background-color: #f3f5f9;
 }
 
@@ -283,10 +283,6 @@ body {
     font-weight: bold;
     color: #0069ff;
     text-decoration: none;
-}
-
-#deploy {
-    background-color: #ffffff;
 }
 
 .margin-section {
@@ -351,10 +347,6 @@ body {
     font-size: 1.7rem;
     line-height: 2.2rem;
     margin-top: 16px;
-}
-
-#developers {
-    background-color: #f3f5f9;
 }
 
 #developers-content .row img {
@@ -448,4 +440,20 @@ body {
 
 .margin-dot {
     margin-right: 10px;
+}
+
+.margin-security {
+    margin-top: 30px;
+}
+
+a.security-link-stats {
+    text-decoration: none;
+    color: #0069ff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.security-link-stats:hover {
+    color: #005fe6;
 }
