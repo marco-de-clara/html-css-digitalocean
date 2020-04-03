@@ -22,16 +22,14 @@ body {
     border-bottom: 1px solid #e5e8ed;
 }
 
-#navbar-top a.no-deco {
-    margin: 12px 15px 0;
-}
-
 #announcement-link {
     float: left;
+    margin: 12px 15px 9px;
     width: 75%;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+    text-decoration: none;
 }
 
 #announcement-link,
@@ -47,10 +45,6 @@ body {
 }
 
 .black:hover {
-    text-decoration: none;
-}
-
-.no-deco {
     text-decoration: none;
 }
 
@@ -257,4 +251,36 @@ body {
 
 #tos a:hover {
     color: #005fe6;
+}
+
+#business {
+    background-color: #f3f5f9;
+}
+
+#business-content {
+    margin: 70px 0;
+    text-align: center;
+}
+
+#business h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgba(3, 27, 78, 0.4);
+}
+
+#logo-wrapper {
+    margin: 15px 0;
+}
+
+.logo-stats {
+    width: 160px;
+    height: 78px;
+    object-fit: contain;
+}
+
+#business-content a {
+    font-size: 16px;
+    font-weight: bold;
+    color: #0069ff;
+    text-decoration: none;
 }
