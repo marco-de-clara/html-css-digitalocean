@@ -25,7 +25,7 @@ body {
 #announcement-link {
     float: left;
     margin: 12px 15px 9px;
-    width: 75%;
+    width: 70%;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -283,4 +283,72 @@ body {
     font-weight: bold;
     color: #0069ff;
     text-decoration: none;
+}
+
+#deploy {
+    background-color: #ffffff;
+}
+
+#deploy-content {
+    margin: 70px 0 100px;
+}
+
+#deploy-content h2 {
+    font-size: 3.3rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+#deploy-info {
+    font-size: 2.1rem;
+    text-align: center;
+    margin: 16px 0 64px;
+}
+
+.deploy-text-color {
+    color: rgba(3, 27, 78, 0.7);
+}
+
+#deploy-content ul {
+    list-style: none;
+    float: left;
+    margin-bottom: 32px;
+}
+
+#deploy-content ul a {
+    text-decoration: none;
+    color: rgba(3, 27, 78, 0.5);
+}
+
+.deploy-list-style {
+    font-size: 1.7rem;
+    font-weight: bold;
+    padding: 13.5px 30px;
+    border-left: 2px solid #e5e8ed;
+}
+
+.listed-selected,
+#deploy-content ul a:hover {
+    color: #031b4e;
+}
+
+.list-selected,
+.deploy-list-style:hover {
+    border-left-color: #0069ff;
+}
+
+.margin-grid {
+    margin-bottom: 32px;
+}
+
+.grid-style-title {
+    font-size: 1.97rem;
+    font-weight: bold;
+}
+
+#deploy-grid p {
+    font-size: 1.7rem;
+    line-height: 2.2rem;
+    margin-top: 16px;
 }
