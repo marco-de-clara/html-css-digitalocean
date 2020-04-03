@@ -123,7 +123,7 @@ body {
 
 @media all and (min-width: 992px) {
     #jumbo {
-        background-image: url(img/bg-home.jpg);
+        background-image: url('img/bg-home.jpg');
         background-position: bottom;
         background-repeat: no-repeat;
     }
@@ -370,9 +370,7 @@ body {
 
 .viewport-content img {
     width: 90%;
-}
-
-.viewport-content img {
+    border-radius: 5px;
     cursor: grab;
 }
 
@@ -456,4 +454,54 @@ a.security-link-stats {
 
 .security-link-stats:hover {
     color: #005fe6;
+}
+
+#data {
+    background-image: url('img/planisphere.png');
+    background-color: #031b4e;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.dark-bg-text {
+    color: #ffffff;
+}
+
+.title-margin {
+    width: 66%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 70px;
+}
+
+.table-stats {
+    width: 100%;
+}
+
+tbody tr {
+    border-bottom: 1px solid hsla(0,0%,100%,.2)
+}
+
+tbody td {
+    font-size: 1.4rem;
+    padding: 11px 10px 10px;
+    vertical-align: middle;
+}
+
+.cell-link {
+    color: #00bea1;
+}
+
+.cell-link:hover {
+    color: #005fe6;
+    text-decoration: none;
+}
+
+.opacity-60 {
+    opacity: 0.6;
+}
+
+.text-right {
+    text-align: right;
 }
