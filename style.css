@@ -546,3 +546,27 @@ tbody td {
     font-size: 1.5rem;
     font-weight: bold;
 }
+
+#account {
+    background-image: url('img/bg-home.jpg');
+    background-position: -150px bottom;
+    background-repeat: no-repeat;
+}
+
+#account-content {
+    text-align: center;
+}
+
+.btn-account {
+    margin-top: 24px;
+    color: #0069ff;
+    font-size: 1.75rem;
+    font-weight: bold;
+    outline: 0;
+    padding: 11.5px 23px;
+}
+
+.btn-account:hover {
+    background-color: hsla(0, 0%, 100%, 0.8);
+    color: #0069ff;
+}
