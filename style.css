@@ -570,3 +570,48 @@ tbody td {
     background-color: hsla(0, 0%, 100%, 0.8);
     color: #0069ff;
 }
+
+footer {
+    background-color: #010e28;
+}
+
+footer ul {
+    list-style: none;
+}
+
+.footer-layout,
+footer li > a {
+    font-size: 1.6rem;
+    color: hsla(0, 0%, 100%, 0.5);
+    line-height: 2.5rem;
+}
+
+footer li > a:hover {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.margin-list-title {
+    margin-bottom: 15px;
+}
+
+.margin-bot-list {
+    margin-bottom: 70px;
+}
+
+.divider {
+    border-bottom: 1px solid hsla(0, 0%, 100%, 0.2);
+}
+
+#footer-bot-content {
+    margin-top: 30px;
+}
+
+#footer-bot-content img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.color {
+    color: hsla(0,0%,100%,.5);
+}
